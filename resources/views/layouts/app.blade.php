@@ -57,8 +57,8 @@
                     <span class="material-symbols-outlined text-[20px]">home</span> Home
                 </a>
                 <a class="text-[#60708a] dark:text-gray-400 text-sm font-medium leading-normal hover:text-primary transition-colors flex items-center gap-2"
-                    href="#">
-                    <span class="material-symbols-outlined text-[20px]">group</span> Network
+                    href="{{ route( name: 'network')}}">
+                    <span class="material-symbols-outlined text-[20px]">group</span>network
                 </a>
                 <a class="text-[#60708a] dark:text-gray-400 text-sm font-medium leading-normal hover:text-primary transition-colors flex items-center gap-2"
                     href="#">

@@ -13,8 +13,12 @@ Route::get('/dashboard', function () {
 
 Route::middleware('auth')->group(function () {
     Route::get('/profile', [ProfileController::class, 'edit'])->name('profile.edit');
-    Route::put('/profile/{user}', [ProfileController::class, 'update'])->name('profile.update');
+    Route::put('/profile/{user}', [ProfileController::class, 'àupdate'])->name('profile.update');
     Route::delete('/profile', [ProfileController::class, 'destroy'])->name('profile.destroy');
 });
+
+Route::get('network',function(){
+ return view('network');
+})->name(name: 'network');
 
 require __DIR__.'/auth.php';

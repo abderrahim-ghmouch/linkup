@@ -5,16 +5,16 @@
 @section('content')
     <main class="flex-1 flex justify-center w-full py-6 px-4">
         <div class="w-full max-w-[1024px] flex flex-col gap-6">
-            <!-- Profile Header Section -->
+
             <div
                 class="flex flex-col rounded-xl overflow-hidden bg-white dark:bg-[#1e2732] shadow-sm border border-[#e5e7eb] dark:border-[#2a3441]">
-                <!-- Cover Image -->
+
                 <div class="w-full h-48 md:h-64 bg-center bg-no-repeat bg-cover relative"
                     data-alt="Warm abstract nature background with soft sunlight flare"
                     style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuAb0Lxfu290LL3gKOYoERJOS30wMsNbbOtZ9kGGntBhTaRQcUyE-rphBG7jJz_OiY2fJtclvDMLMCx9fiizJz1MGaq81DaAYXzCnBf_Cfo4kW3f_PBUne10rKQb-GOCzxp6Crv-LvkxlNQ635DVTcCCDH5W_jHCAYWwb66XSQacj4uq2Xy3SA-e3bNCWkpaQHP7k-lcqczc8qKwplIXwP93sZ7u8hmKn9EX1sXTBae8Oerxw-BRgpPZFJVjOR7bfVPIzTreYYMrdKdQ");'>
                     <div class="absolute inset-0 bg-black/10"></div>
                 </div>
-                <!-- Info & Avatar -->
+             
                 <div class="relative px-6 pb-6 pt-0 flex flex-col items-center -mt-16 md:-mt-20">
                     <div class="bg-center bg-no-repeat aspect-square bg-cover rounded-full w-32 h-32 md:w-40 md:h-40 border-[6px] border-white dark:border-[#1e2732] shadow-md z-10"
                         data-alt="Family portrait of four people smiling outdoors"
